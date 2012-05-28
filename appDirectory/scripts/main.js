@@ -1,5 +1,5 @@
-require(['jquery','knockout', 'appViewModel'], function($, ko, appViewModel) {
+require(['jquery','knockout', 'appViewModel'], function($, ko, AppViewModel) {
     $(function(){
-    	ko.applyBindings(new appViewModel());
+    	ko.applyBindings(new AppViewModel());
     });
 });
